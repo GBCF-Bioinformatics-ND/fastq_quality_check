@@ -3,12 +3,6 @@
 **/.Rhistory
 **/.vscode
 
-.DS_Store
-__pycache__
-.Rhistory
-.vscode
-
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
