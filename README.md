@@ -104,6 +104,26 @@ results_base_dir/
     └── multiqc_report_PreTrim.html
 ```
 
+
+## Creating Globus Collection to share
+Globus provides another means to conveniently transfer the data within ND or with external collaborator. Since Notre Dame CRC has its own registered Globus collection, this process is fairly easy. First, login [Globus](https://www.globus.org/) using your Notre Dame Credential, Find `ND Center for Research Computing Collection` in `Collection` left side bar. Click this collection, and `Open in File Manager`, within which you can find the folder that you'd like to create a Globus endpoint to share, the path is the same as you would see on CRC. 
+
+![file_manager](./images/file_manager.png)
+
+Now go back to `ND Center for Research Computing Collection`, click `Collection` top bar and then click `Add Guest Collection` in the top right corner, then create the guest collection.
+
+![guest_collection](./images/guest_collection.png)
+
+Once you create the guest collection, it will shows up when you click `Collection` in `ND Center for Research Computing Collection`, you can click the guest collection you created, and give other Globus users' access to the collection by `Permission`.
+
+![permission](./images/permission.png)
+
+Finally, give them `Access Manager` role so the client can add other collaborators themselves.
+
+![role](./images/role.png)
+
+
+
 ## Notes
 
 - Scripts use SGE (Sun Grid Engine) job submission headers for CRC
